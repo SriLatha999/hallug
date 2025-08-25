@@ -1,0 +1,12 @@
+{
+  "model": "moe",
+  "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1 (fallback\u2192local TinyLlama)",
+  "truthfulqa_acc": 0.06666666666666667,
+  "benign_over_refusal": 0.06666666666666667,
+  "toxic_refusal": 0.06666666666666667,
+  "latency_ms": {
+    "tqa_mean": 62827,
+    "ben_mean": 4345,
+    "tox_mean": 702
+  }
+}

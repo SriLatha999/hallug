@@ -1,0 +1,13 @@
+transformers
+datasets
+accelerate
+sentencepiece
+sentence-transformers
+scikit-learn
+evaluate
+huggingface_hub
+streamlit
+python-dotenv
+pandas
+numpy
+matplotlib

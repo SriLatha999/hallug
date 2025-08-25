@@ -1,0 +1,25 @@
+{
+  "model_key": "moe",
+  "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1 (fallback\u2192local TinyLlama)",
+  "baseline_dev": {
+    "tqa_acc": 0.0,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0
+  },
+  "low": {
+    "tqa_acc": 0.15,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0
+  },
+  "medium": {
+    "tqa_acc": 0.15,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0
+  },
+  "high": {
+    "tqa_acc": 0.15,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0
+  },
+  "chosen_level": "medium"
+}

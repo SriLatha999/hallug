@@ -1,0 +1,47 @@
+{
+  "model_key": "dense",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.2 (fallback\u2192local TinyLlama)",
+  "pc_level": "medium",
+  "baseline_dev": {
+    "tqa_acc": 0.1,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0
+  },
+  "0.6": {
+    "tqa_acc": 0.1,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0,
+    "k": 4,
+    "tau_bits": 0.6
+  },
+  "0.8": {
+    "tqa_acc": 0.1,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0,
+    "k": 4,
+    "tau_bits": 0.8
+  },
+  "1.0": {
+    "tqa_acc": 0.1,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0,
+    "k": 4,
+    "tau_bits": 1.0
+  },
+  "1.2": {
+    "tqa_acc": 0.1,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0,
+    "k": 4,
+    "tau_bits": 1.2
+  },
+  "1.5": {
+    "tqa_acc": 0.1,
+    "ben_over": 0.0,
+    "tox_refusal": 0.0,
+    "k": 4,
+    "tau_bits": 1.5
+  },
+  "chosen_tau": 1.5,
+  "k": 4
+}

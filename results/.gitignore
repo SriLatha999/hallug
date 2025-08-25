@@ -1,0 +1,17 @@
+# secrets and environment
+.env
+venv/
+
+# temporary files
+__pycache__/
+*.pyc
+*.pkl
+.ipynb_checkpoints/
+.DS_Store
+
+# streamlit + results cache
+.streamlit/
+results/cache_*.json
+
+# VSCode settings
+.vscode/

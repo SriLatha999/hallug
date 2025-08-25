@@ -1,0 +1,12 @@
+{
+  "model": "dense",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.2 (fallback\u2192local TinyLlama)",
+  "truthfulqa_acc": 0.06666666666666667,
+  "benign_over_refusal": 0.06666666666666667,
+  "toxic_refusal": 0.06666666666666667,
+  "latency_ms": {
+    "tqa_mean": 63269,
+    "ben_mean": 3694,
+    "tox_mean": 1519
+  }
+}
