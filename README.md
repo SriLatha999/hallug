@@ -1,4 +1,15 @@
 # Layered Hallucination Guard
+
+Theoretically, you can train models to understand uncertainty through methods such as:
+Bayesian neural networks
+Ensemble models
+Constitutional AI strategies
+Contrastive or uncertainty-aware decoding techniques
+But these come with steep costs.
+<img width="607" height="226" alt="image" src="https://github.com/user-attachments/assets/2e19022b-c2b1-463d-9dd7-791ea2255656" />
+
+Instead, we built a safety system that wraps runtime controls around any pre-trained LLM — no retraining required. Its a quick appraoch, modular, and effective when you are building quick prototypes or modules.
+
 _Prevention (Prompt Control) → Detection (Risk) → Verification (Entropy Gate)_
 
 A small, practical system that **reduces hallucinations without training** by layering different techniques, composable controls around any LLM. 
